@@ -19,6 +19,17 @@ GIT
     spree_gateway (2.3.0.beta)
       spree_core (~> 2.3.0)
 
+GIT
+  remote: https://github.com/spree/spree_i18n
+  revision: 8bc12dbfd9dbcf920a9d823282884225b31c5358
+  branch: 2-3-stable
+  specs:
+    spree_i18n (3.0.0)
+      globalize (~> 4.0.2)
+      i18n_data (~> 0.5.1)
+      rails-i18n (~> 4.0.1)
+      spree_core (~> 2.3.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -104,12 +115,16 @@ GEM
       railties (>= 3.2, < 5.0)
     friendly_id (5.0.4)
       activerecord (>= 4.0.0)
+    globalize (4.0.2)
+      activemodel (>= 4.0.0, < 5)
+      activerecord (>= 4.0.0, < 5)
     highline (1.6.21)
     hike (1.2.3)
     httparty (0.13.1)
       json (~> 1.8)
       multi_xml (>= 0.5.2)
     i18n (0.6.9)
+    i18n_data (0.5.1)
     jbuilder (2.1.3)
       activesupport (>= 3.0.0, < 5)
       multi_json (~> 1.2)
@@ -164,6 +179,32 @@ GEM
       bundler (>= 1.3.0, < 2.0)
       railties (= 4.1.2)
       sprockets-rails (~> 2.0)
+    rails-i18n (4.0.2)
+      i18n (~> 0.6)
+      rails (>= 4.0)
+      rails (>= 4.0)
+      rails (>= 4.0)
+      rails (>= 4.0)
+      rails (>= 4.0)
+      rails (>= 4.0)
+      rails (>= 4.0)
+      rails (>= 4.0)
+      rails (>= 4.0)
+      rails (>= 4.0)
+      rails (>= 4.0)
+      rails (>= 4.0)
+      rails (>= 4.0)
+      rails (>= 4.0)
+      rails (>= 4.0)
+      rails (>= 4.0)
+      rails (>= 4.0)
+      rails (>= 4.0)
+      rails (>= 4.0)
+      rails (>= 4.0)
+      rails (>= 4.0)
+      rails (>= 4.0)
+      rails (>= 4.0)
+      rails (>= 4.0)
     rails_12factor (0.0.2)
       rails_serve_static_assets
       rails_stdout_logging
@@ -299,6 +340,7 @@ DEPENDENCIES
   spree (= 2.3.1)
   spree_auth_devise!
   spree_gateway!
+  spree_i18n!
   spring
   turbolinks
   uglifier (>= 1.3.0)
