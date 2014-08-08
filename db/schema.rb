@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140807182761) do
+ActiveRecord::Schema.define(version: 20140808094026) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -285,6 +285,9 @@ ActiveRecord::Schema.define(version: 20140807182761) do
     t.boolean  "confirmation_delivered",                                     default: false
     t.boolean  "considered_risky",                                           default: false
     t.string   "guest_token"
+    t.string   "sofort_hash"
+    t.string   "sofort_transaction"
+    t.text     "sofort_log"
   end
 
   add_index "spree_orders", ["approver_id"], name: "index_spree_orders_on_approver_id", using: :btree

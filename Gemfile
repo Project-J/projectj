@@ -49,3 +49,4 @@ gem 'spree_gateway', :git => 'https://github.com/spree/spree_gateway.git', :bran
 gem 'spree_auth_devise', :git => 'https://github.com/spree/spree_auth_devise.git', :branch => '2-3-stable'
 gem 'spree_i18n', :git => 'https://github.com/spree/spree_i18n', :branch => '2-3-stable'
 gem 'spree_multi_currency', :git => 'https://github.com/spree/spree_multi_currency', :branch => '2-3-stable'
+gem 'spree_sofort', :git => 'https://github.com/hefan/spree_sofort', :branch => '2-3-stable'
