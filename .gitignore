@@ -37,3 +37,6 @@ build/
 /log/*.log
 /tmp
 .env
+
+# Spree
+/public/spree/
