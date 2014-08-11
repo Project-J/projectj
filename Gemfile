@@ -35,6 +35,9 @@ gem 'unicorn'
 
 gem 'newrelic_rpm'
 
+# For memcache
+gem 'dalli'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
