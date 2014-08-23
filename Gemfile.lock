@@ -1,4 +1,15 @@
 GIT
+  remote: https://github.com/Project-J/spree_wombat
+  revision: e8dfb00242ec5f13af5de87123dc830a03067a58
+  branch: mq-2-3-stable
+  specs:
+    spree_wombat (2.3.0)
+      active_model_serializers (= 0.9.0.alpha1)
+      bunny
+      httparty
+      spree_core (~> 2.3.0)
+
+GIT
   remote: https://github.com/hefan/spree_sofort
   revision: 77d3ae0acdee382a1173b3c18e14858af30d8880
   branch: 2-3-stable
@@ -62,6 +73,8 @@ GEM
       activesupport (= 4.1.2)
       builder (~> 3.1)
       erubis (~> 2.7.0)
+    active_model_serializers (0.9.0.alpha1)
+      activemodel (>= 3.2)
     active_utils (2.2.2)
       activesupport (>= 2.3.11)
       i18n
@@ -88,6 +101,7 @@ GEM
       tzinfo (~> 1.1)
     acts_as_list (0.3.0)
       activerecord (>= 3.0)
+    amq-protocol (1.9.2)
     arel (5.0.1.20140414130214)
     awesome_nested_set (3.0.0)
       activerecord (>= 4.0.0, < 5)
@@ -97,6 +111,8 @@ GEM
       uuidtools (~> 2.1)
     bcrypt (3.1.7)
     builder (3.2.2)
+    bunny (1.4.0)
+      amq-protocol (>= 1.9.2)
     cancan (1.6.10)
     canonical-rails (0.0.7)
       rails (>= 3.1, < 5.0)
@@ -363,6 +379,7 @@ DEPENDENCIES
   spree_i18n!
   spree_multi_currency!
   spree_sofort!
+  spree_wombat!
   spring
   turbolinks
   uglifier (>= 1.3.0)
