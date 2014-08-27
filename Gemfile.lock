@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/Project-J/spree_wombat
-  revision: e8dfb00242ec5f13af5de87123dc830a03067a58
+  revision: 08a928b359d192979edbbed1c097a2ce276a5e83
   branch: mq-2-3-stable
   specs:
     spree_wombat (2.3.0)
